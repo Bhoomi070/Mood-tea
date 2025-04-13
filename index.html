@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mood Tea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍵 Mood Tea</h1>
+    <p>Select your mood:</p>
+
+    <div class="buttons">
+      <button onclick="showTea('stressed')">Stressed</button>
+      <button onclick="showTea('sleepy')">Sleepy</button>
+      <button onclick="showTea('happy')">Happy</button>
+      <button onclick="showTea('sad')">Sad</button>
+    </div>
+
+    <div id="teaDisplay" class="tea-box">
+      <img id="teaImage" src="" alt="" style="display: none;" />
+      <h2 id="teaName"></h2>
+      <p id="teaMessage"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
