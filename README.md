@@ -1,27 +1,63 @@
-# Mood Tea 🍵🌱
+# 🍵 Mood Tea
 
-**Mood Tea** is an innovative web app designed to help users track and improve their moods through the calming ritual of tea. With a beautiful interface and simple functionality, this project allows users to select various tea flavors and connect them with their mood.
+**Mood Tea** is a calming and interactive mini web app that suggests a type of tea based on your current mood. Whether you're stressed, sleepy, happy, or sad — there's a perfect tea just for you.
 
-## Features
+---
 
-- **Mood Tracker:** Users can select their current mood from a list of options.
-- **Tea Recommendations:** Based on the user's mood, the app will recommend a tea that suits the mood.
-- **Brewing Timer:** A built-in timer that helps users brew their tea perfectly, based on the tea selected.
-- **Tea History:** Users can view the history of teas they've brewed and the moods they tracked.
+## 🌟 Features
 
-## Tech Stack
+- Four mood options: **Stressed**, **Sleepy**, **Happy**, and **Sad**
+- Dynamic tea recommendation with:
+  - Tea name
+  - Comforting message
+  - A soothing tea image
+- Clean, aesthetic, and mobile-friendly UI
 
-- **Frontend:** HTML5, CSS3, JavaScript (Vanilla or with a framework like React.js)
-- **Backend:** (If applicable, e.g., Node.js, Express)
-- **Database:** (If applicable, e.g., MongoDB or Firebase for storing mood history)
-- **Libraries/Tools:** 
-  - `localStorage` for saving user data and preferences
-  - `Moment.js` or `Day.js` for date/time management
-  - `Tailwind CSS` (or your preferred styling framework)
+---
 
-## How to Run the Project
+## 🛠️ Tech Stack
 
-1. **Clone the repository:**
+- **HTML5** – Structure of the app  
+- **CSS3** – Styling and layout  
+- **JavaScript** – Interactivity and logic  
 
-```bash
+---
+
+## 📁 File Structure
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+3. Click on your current mood.
+4. Sip your virtual tea and feel better 🌸
+
+---
+
+## 🧠 Inspiration
+
+This project was built as a cozy and beginner-friendly way to combine emotional awareness with simple web technologies. Inspired by tea's comforting nature, it's perfect for chill coding vibes or mental health awareness projects.
+
+---
+
+## 📸 Preview
+
+![Mood Tea Screenshot](https://images.unsplash.com/photo-1602603412313-ab713536e288?w=600)
+
+---
+
+## ✨ You can improve this by:
+
+- Adding more moods and teas
+- Animations and transitions
+- Saving user mood history using `localStorage`
+- Integrating calming background music or sounds
+
+---
+
+## ❤️ Made with love & tea.
+
+
 git clone https://github.com/Bhoomi070/Mood-tea.git
